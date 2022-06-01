@@ -1,0 +1,34 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  flex-direction: column;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 5px 5px;
+  width: 300px;
+}
+.card {
+    background: rgb( 240, 240, 240);
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px 40px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card1 {
+  float: left;
+  vertical-align: top;
+  padding: 40px 20px 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+.card2 {
+  float: right;
+  vertical-align: top;
+  padding: 40px 20px 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
